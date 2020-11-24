@@ -1,4 +1,6 @@
 # agqr-rec-py
+**放送方法の変更に伴い、現在録画できなくなっています**
+
 Python及びrtmpdumpを用いて[超A&G+](https://www.agqr.jp/)の番組録画を行い、録画完了後にLINEへ通知を送ります。  
 利用は私的利用の範囲でお願いします。本プログラム利用に関する一切の責任を負いかねますのでご了承ください。
 
@@ -19,9 +21,9 @@ windowsの場合はexeファイルを[ダウンロード](http://rtmpdump.mplaye
 - リポジトリ内で以下のコマンドにより実行可能です     
 `--exe_path`オプションはwindows以外のosを使用する場合には必要ありません
 
-    - windows : `python agqr_rec.py  --root_dava_dir [保存先ディレクトリ]  --exe_path [rtmpdump.exeのpath]`
-    - mac os (Linux) : `python agqr_rec.py  --root_dava_dir [保存先ディレクトリ]`
-    - mac osの場合の実行例 : `python agqr_rec.py  --root_dava_dir ./agqr`
+    - windows : `python agqr_rec.py  --root_sava_dir [保存先ディレクトリ]  --exe_path [rtmpdump.exeのpath]`
+    - mac os (Linux) : `python agqr_rec.py  --root_sava_dir [保存先ディレクトリ]`
+    - mac osの場合の実行例 : `python agqr_rec.py  --root_sava_dir ./agqr`
 - 録画された動画ファイルは `[保存先ディレクトリ]/[番組名]/YYYYMMDD.flv` の形式で保存されます
 
 ## tips
